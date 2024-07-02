@@ -1,0 +1,4 @@
+github.com/datadog/hyperloglog v0.0.0-20220804205443-1806d9b66146 h1:suEbv4TeRa1q3l0u33X+KLcDnpqu0b5nKWkoflGXm2U=
+github.com/datadog/hyperloglog v0.0.0-20220804205443-1806d9b66146/go.mod h1:5I0xfBeU/5fzqBtZtQphSa2fArBSPdbjiIAsHG7jFAM=
+github.com/klauspost/compress v1.15.10 h1:Ai8UzuomSCDw90e1qNMtb15msBXsNpH6gzkkENQNcJo=
+github.com/klauspost/compress v1.15.10/go.mod h1:QPwzmACJjUTFsnSHH934V6woptycfrDDJnH7hvFVbGM=
