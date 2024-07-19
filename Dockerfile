@@ -1,8 +1,6 @@
 FROM golang
 
-RUN apt-get update && apt install -y python3-pip
-
-RUN pip3 install matplotlib
+RUN apt-get update && apt install -y python3-matplotlib
 
 COPY . /eipsim
 
