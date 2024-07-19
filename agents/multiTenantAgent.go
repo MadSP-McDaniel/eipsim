@@ -3,7 +3,7 @@ package agents
 import (
 	"fmt"
 
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/types"
+	"github.com/MadSP-McDaniel/eipsim/types"
 )
 
 type MultiTenantAgent struct {

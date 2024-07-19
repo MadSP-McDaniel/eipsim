@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/util"
+	"github.com/MadSP-McDaniel/eipsim/util"
 )
 
 func TestFourierFig(t *testing.T) {

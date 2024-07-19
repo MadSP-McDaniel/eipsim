@@ -8,13 +8,13 @@ import (
 	"os"
 	"strconv"
 
+	"github.com/MadSP-McDaniel/eipsim/types"
 	"github.com/klauspost/compress/zstd"
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/types"
 )
 
 /*
-	CSVAgent reads an allocation trace from a file and replays it
-	Rows in the CSV file should take the form of comma-separate integers: Time (seconds),Type(1=allocate,0=release),ID(unique across allocated IPs),TenantID
+CSVAgent reads an allocation trace from a file and replays it
+Rows in the CSV file should take the form of comma-separate integers: Time (seconds),Type(1=allocate,0=release),ID(unique across allocated IPs),TenantID
 */
 type CSVAgent struct {
 	instanceSlotIds map[uint64]types.IPAddress

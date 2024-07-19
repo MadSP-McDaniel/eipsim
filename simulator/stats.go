@@ -6,7 +6,7 @@ import (
 	"os"
 	"sort"
 
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/types"
+	"github.com/MadSP-McDaniel/eipsim/types"
 )
 
 func (s *Simulator) CollectSimulatorPeriodicStats(newStats map[string]interface{}) {

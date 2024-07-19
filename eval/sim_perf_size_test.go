@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/agents"
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/simulator"
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/types"
+	"github.com/MadSP-McDaniel/eipsim/agents"
+	"github.com/MadSP-McDaniel/eipsim/simulator"
+	"github.com/MadSP-McDaniel/eipsim/types"
 )
 
 func junkRound(f float64) float64 {

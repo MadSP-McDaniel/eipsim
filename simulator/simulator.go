@@ -4,11 +4,11 @@ import (
 	"math"
 	"math/rand"
 
+	"github.com/MadSP-McDaniel/eipsim/agents"
+	"github.com/MadSP-McDaniel/eipsim/policies"
+	"github.com/MadSP-McDaniel/eipsim/types"
+	"github.com/MadSP-McDaniel/eipsim/util"
 	"github.com/datadog/hyperloglog"
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/agents"
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/policies"
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/types"
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/util"
 )
 
 type allocation struct {

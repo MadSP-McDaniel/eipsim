@@ -3,8 +3,8 @@ package agents
 import (
 	"math"
 
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/types"
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/util"
+	"github.com/MadSP-McDaniel/eipsim/types"
+	"github.com/MadSP-McDaniel/eipsim/util"
 )
 
 const dailyTerms = 24 * 2

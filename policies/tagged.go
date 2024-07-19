@@ -1,6 +1,6 @@
 package policies
 
-import "gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/types"
+import "github.com/MadSP-McDaniel/eipsim/types"
 
 type taggedPoolEntry struct {
 	ip    types.IPAddress

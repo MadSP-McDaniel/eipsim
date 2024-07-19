@@ -1,4 +1,4 @@
-module gitlab-siis.cse.psu.edu/cloud-squatting/ipsim
+module github.com/MadSP-McDaniel/eipsim
 
 go 1.21
 

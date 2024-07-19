@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/types"
+	"github.com/MadSP-McDaniel/eipsim/types"
 )
 
 type PoolPolicyWrapper struct {

@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"sort"
 
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/policies"
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/types"
+	"github.com/MadSP-McDaniel/eipsim/policies"
+	"github.com/MadSP-McDaniel/eipsim/types"
 )
 
 type adversaryIpMeta struct {

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/agents"
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/policies"
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/simulator"
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/types"
+	"github.com/MadSP-McDaniel/eipsim/agents"
+	"github.com/MadSP-McDaniel/eipsim/policies"
+	"github.com/MadSP-McDaniel/eipsim/simulator"
+	"github.com/MadSP-McDaniel/eipsim/types"
 )
 
 func TestSegmentedPoolSize(t *testing.T) {

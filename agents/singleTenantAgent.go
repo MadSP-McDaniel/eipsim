@@ -1,7 +1,7 @@
 package agents
 
 import (
-	"gitlab-siis.cse.psu.edu/cloud-squatting/ipsim/types"
+	"github.com/MadSP-McDaniel/eipsim/types"
 )
 
 type DynamicTenantAgent struct {
