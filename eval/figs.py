@@ -35,15 +35,15 @@ def main():
     # subprocess.check_call("go test -v ./eval/...", shell=True)
     os.makedirs("figs", exist_ok=True)
     funcs = [
-        # segmented_multiplier,
+        segmented_multiplier,
         mtadv_LC_vs_RA,
-        # mtadv_LC_vs_TC,
-        # stadv_lc_vs_time,
-        # benign_free_duration_cdf_all,
-        # benign_lc_vs_time,
-        # benign_LC_vs_RA,
-        # benign_allocation_duration_cdf,
-        # fourier,
+        mtadv_LC_vs_TC,
+        stadv_lc_vs_time,
+        benign_free_duration_cdf_all,
+        benign_lc_vs_time,
+        benign_LC_vs_RA,
+        benign_allocation_duration_cdf,
+        fourier,
         latex_stats,
     ]
 
