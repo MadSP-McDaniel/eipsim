@@ -4,6 +4,8 @@ EIPSim is a flexible simulator for cloud IP address pools. It allows simulation 
 
 # Requirements/Dependencies
 
+*Note:* This artifact includes traces via [Git LFS](https://git-lfs.com/), which must be installed for tests to work.
+
 EIPSim can run on any recent amd64 or arm64 CPU. Go tests are run in parallel; we recommend 4GB of memory per vCPU (Our tests were performed on an AWS `m6i.4xlarge` with 16 vCPU and 64GB memory). If you have insufficient memory, you can change the number of parallel jobs using the `-parallel n` flag.
 
 EIPSim requires Go 1.18 or later. Dependencies (tools for decompressing input data) can be installed using
