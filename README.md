@@ -64,3 +64,17 @@ The policy contains data structures that can track the history of a given IP add
 
 ## Extending the EIPSim Framework
 EIPSim supports expansion to new policies, behaviors, and adversaries as academics and practitioners continue to study cloud IP allocation. EIPSim defines `interface`s between components, and new components can be added either as part of the EIPSim package, or within a separate program that uses EIPSim as a library. EIPSim provides convenience functions to ease in the development of new components: for example, our studied allocation policies were implemented in an average of 71 lines of code, and new parameter sweep tests can be built on top of EIPSim in around 70 lines of code. We expect that, by encouraging the development of new components on top of our framework, the community can reach a unified means to compare threat models and defenses. EIPSim also supports allocation traces collected by cloud providers through custom agents. Practitioners can directly read allocations as tuples of $(T, t_a, t_r)$ and use EIPSim to simulate adversarial and pool behavior.
+
+# Paper Reference
+
+```
+@inproceedings{pauley_secure_2025,
+  address   = {San Diego, CA},
+  title     = {Secure {IP} {Address} {Allocation} at {Cloud} {Scale}},
+  booktitle = {2025 {Network} and {Distributed} {Systems} {Security} {Symposium} ({NDSS})},
+  publisher = {Internet Society},
+  author    = {Pauley, Eric and Domico, Kyle and Hoak, Blaine and Sheatsley, Ryan and Burke, Quinn and Beugin, Yohan and Kirda, Engin and McDaniel, Patrick},
+  month     = feb,
+  year      = {2025}
+}
+```
